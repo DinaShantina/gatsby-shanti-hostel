@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h1>Hello</h1>
+
       <h2>We are Shanti Hostel, home away from home in Skopje.</h2>
       <p>
         Do you need accommodation? <Link to="/contact">Contact us</Link>

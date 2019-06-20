@@ -13,7 +13,7 @@ const ContactPage = () => {
         <p>
           <a href="tel: +389 2 60 90 807">
             {/* <img src={require('./logo.jpeg')} / */}
-            <img src={Phone} />
+            <img src={Phone} alt="logo" />
           </a>
           &nbsp;+389 2 60 90 807
         </p>
