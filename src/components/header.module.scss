@@ -9,8 +9,10 @@
 
 .nav-list {
   display: flex;
+  justify-content: space-around;
   list-style-type: none;
   margin: 0;
+  // background-color: #f9dd00;
 }
 .nav-item {
   color: #999999;
