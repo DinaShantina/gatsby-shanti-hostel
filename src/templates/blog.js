@@ -5,17 +5,6 @@ import Head from "../components/head"
 
 import { graphql } from "gatsby"
 
-// export const query = graphql`
-//   query($slug: String!) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       frontmatter {
-//         title
-//         date
-//       }
-//       html
-//     }
-//   }
-// `
 export const query = graphql`
   query($slug: String!) {
     contentfulBlogPost(slug: { eq: $slug }) {
