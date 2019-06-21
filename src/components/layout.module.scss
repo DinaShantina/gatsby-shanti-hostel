@@ -6,7 +6,11 @@
   min-height: 100vh;
   background-color: #ffffff;
 }
-
+.imgHeader {
+  display: flex;
+  justify-content: flex-end;
+  // max-width: 750px;
+}
 .content {
   flex-grow: 1;
   padding: 1rem;
@@ -17,9 +21,9 @@
 }
 
 .pic {
-  position: absolute;
-  top: 196px;
-  left: 800px;
+  // position: absolute;
+  // top: 196px;
+  // left: 800px;
   width: 11rem;
   z-index: 0;
   opacity: 0.6;
